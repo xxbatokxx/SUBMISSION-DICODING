@@ -17,7 +17,7 @@ nav{
 }
 
 .title p{
-   margin-left: 100px;
+   margin-left: 160px;
    margin-top: 20px;
 }
 
@@ -45,70 +45,73 @@ ul a{
     display: block;
 }
 
-.content{
+
+.content .container{
     display: flex;
+    margin-left: 40px;
 }
 
 .content .title h1{
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 90px;
+    margin-left: 200px;
     font-family: 'Syne', sans-serif;
     font-size: 48px;
+    min-width: 100%;
     color: #444444;
 }
 
 .content .desc h1{
     margin-top: 100px;
-    margin-left: 520px;
-    gap: 40px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #444444;
+    margin-left: 200px;
 }
 
 article img{
     width: 306px;
     height: auto;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 200px;
     border-radius: 40px;
     display: flex;
-    object-fit: ;
 }
 
 article .title{
     font-size: 20px;
     font-family: 'DM Sans', sans-serif;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 article .desc{
     font-family: 'DM Sans', sans-serif;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 11px;
     
 }
 
 .container{
     display: flex;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 .content-action .title{
     margin-top: 200px;
     font-family: 'Syne', sans-serif;
-    margin-left: 100px;
+    margin-left: 200px;
     font-size: 48px;
 }
 
+.content-action .container{
+    margin-top: 40px;
+}
 
 
 .btn-primary{
     padding: 10px;
-    margin-left: 100px;
-    margin-top: 40px;
+    margin-left: 200px;
     width: 155px;
     height: 40px;
     border-radius: 8px;
@@ -129,7 +132,7 @@ article .desc{
 
 .content-connection .title{
     margin-top: 285px;
-    margin-left: 100px;
+    margin-left: 200px;
     color: #444444;
     font-family: 'Syne', sans-serif;
     font-size: 48px;
@@ -139,13 +142,14 @@ article .desc{
     margin-top: 40px;
     font-family: 'DM Sans', sans-serif; 
     font-size: 20px;
+    max-width: 35%;
     font-weight: 500;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .connection .title{
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 200px;
     font-size: 20px;
     color: #7D7D7D;
     font-family: 'Syne', sans-serif;
@@ -192,7 +196,7 @@ article .desc{
 
 .connect .container{
     border-bottom: 1px solid #C5C5C5;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 aside .icon{
@@ -250,6 +254,101 @@ footer .desc-secondary{
         justify-content: center;
         margin-top: 30px;
         margin-left: auto;
+    }
+
+    aside .icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    
+    .content .container{
+        display: block;
+        min-width: 80%;
+    }
+
+    .content .title h1{
+       margin-left: 20px;
+       font-size: 32px;
+    }
+
+    .content .desc h1{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+     }
+
+     article .container{
+        display: block;
+     }
+
+    article img{
+        margin-left: 50px;
+        height: auto;
+        margin-top: 80px;
+        min-width: 100%;
+        width: 350px;
+        border-radius: 20px;
+    }
+
+    article .title{
+        margin-left: 50px;
+        min-width: 100%;
+    }
+
+    article .desc{
+        margin-left: 50px;
+        min-width: 100%;
+    }
+
+    .content-action .title{
+        margin-left: 40px;
+        font-size: 29px;
+        margin-top: 80px;
+    }
+
+    .content-action .container{
+        display: block;
+    }
+
+    .btn-primary{
+        width: 370px;
+        margin-left: 30px;
+        padding: 5px ;
+    }
+
+    .btn-secondary{
+        width: 370px;
+        margin-left: 30px;
+        padding: 5px ;
+        margin-top: 15px;
+    }
+
+    .content-connection .title{
+        font-size: 32px;
+        margin-left: 30px;
+        margin-top: 145px;
+    }
+
+    .content-connection .desc{
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 40px;
+        max-width: 80%;
+    }
+
+    .connect .container{
+        margin-left: 30px;
+        min-width: 80%;
+    }
+
+    .connection .title{
+        font-size: 20px;
+    }
+
+    .connect .facebook{
+        font-size: 19px;
     }
 }
 
