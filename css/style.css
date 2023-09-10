@@ -67,11 +67,13 @@ ul a{
     font-size: 20px;
     color: #444444;
     margin-left: 200px;
+    max-width: 50%;
 }
 
 article img{
     width: 306px;
     height: auto;
+    min-width: 50%;
     margin-left: 200px;
     margin-top: 200px;
     border-radius: 40px;
@@ -83,12 +85,14 @@ article .title{
     font-family: 'DM Sans', sans-serif;
     margin-top: 30px;
     margin-left: 200px;
+    max-width: 100%;
 }
 
 article .desc{
     font-family: 'DM Sans', sans-serif;
     margin-left: 200px;
     margin-top: 11px;
+    max-width: 100%;
     
 }
 
@@ -151,6 +155,7 @@ article .desc{
     margin-top: 60px;
     margin-left: 200px;
     font-size: 20px;
+    max-width: 100%;
     color: #7D7D7D;
     font-family: 'Syne', sans-serif;
     text-decoration: none;
@@ -277,6 +282,7 @@ footer .desc-secondary{
         margin-top: 20px;
         margin-left: 20px;
         font-size: 20px;
+        max-width: 100%;
      }
 
      article .container{
@@ -349,12 +355,6 @@ footer .desc-secondary{
 
     .connect .facebook{
         font-size: 19px;
-    }
-}
-
-@media only screen and (max-width : 1024px) {
-    .content .title h1{
-        font-size: 32px;
     }
 }
 
