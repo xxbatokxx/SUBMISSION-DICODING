@@ -101,7 +101,7 @@ article{
     font-family: 'Syne', sans-serif;
     margin-left: 200px;
     font-size: 48px;
-    max-width: 60%;
+    max-width: 40%;
     color: #000000;
 }
 
@@ -219,6 +219,118 @@ footer .desc-secondary{
 }
 
 aside{
+    margin-bottom: 450px;
+    position: relative;
+    top: -30px;
+}
+
+aside .contact h2{
+    display: flex;
+    font-size: 28px;
+    justify-content: flex-end;
+    margin-right: 300px;
+    margin-top: -300px;
+}
+
+aside .contact h4{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 210px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+
+form{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+}
+
+form .email{
+    position: relative;
+    right: -200px;
+    
+}
+
+form #email{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form .name{
+    position: relative;
+    
+    top: 90px;
+    
+}
+
+form #name{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+form .comment{
+    position: relative;
+    right: -50px;
+}
+
+form #comment{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 134px;
+}
+
+.btn-submit{
+    position: relative;
+    top: 220px;
+    right: 400px;
+    width: 155px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;  
+}
+
+.btn-submit:hover{
+    background-color: #444444;
+}
+
+.btn-primary:hover{
+    background-color: #444444;
+}
+
+.btn-secondary:hover{
+    background-color: #000000;
+}
+
+
+/* aside{
     margin-top: -240px;
     display: flex;
     justify-content: flex-end;
@@ -247,7 +359,7 @@ aside h5{
     margin-top: 10px;
     max-width: 50%;
     color: #7D7D7D;
-}
+} */
 
 
 
@@ -314,8 +426,6 @@ aside h5{
     main section p{
         margin-left: 0;
     }
-
-
 
     .btn-primary{
         width: 370px;
